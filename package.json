@@ -1,0 +1,13 @@
+{
+	"name": "privatemedia",
+	"version": "1.0.0",
+	"description": "Private Media",
+	"author": "Michael Osarumwense",
+	"scripts": {
+		"open": "npx cypress open",
+		"run": "npx cypress run"
+	},
+	"devDependencies": {
+		"cypress": "^5.3.0"
+	}
+}

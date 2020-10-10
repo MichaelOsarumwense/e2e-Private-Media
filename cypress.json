@@ -1,0 +1,17 @@
+  
+{
+    "env": {
+        "host": "http://private-madia-m3.herokuapp.com",
+        "username":"testuser",
+        "password": "testpassword",
+        "secret": "testsecret",
+        "events": "testevent",
+        "dob": "testdob",
+        "hobbies": "hobbies",
+        "address":"testaddress",
+        "postText":"This is a test Post",
+        "postUpdateText":"This is a test Post for update",
+        "addressUpdateText":"Manchester, Uk",
+        "updatedPassword":"newtestpassword"
+    }
+} 
