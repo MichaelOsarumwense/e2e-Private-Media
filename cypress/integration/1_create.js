@@ -14,6 +14,7 @@ sizes.forEach((size) => {
 			}
 		});
 		after(() => {
+			cy.deletePost();
 			cy.deleteAccount();
 		});
 

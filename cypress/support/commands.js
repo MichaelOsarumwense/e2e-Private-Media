@@ -25,6 +25,8 @@ Cypress.Commands.add('createPost', () => {
 
 Cypress.Commands.add('deletePost', () => {
 	cy.get('#delete').click();
+	cy.get('#deleteWarning').should('be.visible');
+	cy.get('#submitDelete').click();
 	cy.get('.toast').should('contain', 'Deleted!');
 });
 
