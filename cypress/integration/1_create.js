@@ -82,7 +82,7 @@ sizes.forEach((size) => {
 				cy.get('.toast').should('contain', 'Username already exists');
 			});
 		});
-		context('Create-Post', () => {
+		context('Create-Posts', () => {
 			it(`Verify user can create post ${size}`, () => {
 				cy.login();
 				cy.get('#postText').type(`${Cypress.env('postText')}`);
